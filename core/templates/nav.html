@@ -1,0 +1,23 @@
+<!-- START NAVBAR -->
+<div class="nav">
+    <div class="nav__container">
+        <div class="nav__logo-container">
+            <a href="{% url 'home' %}" class="nav__logo">imo</a>
+            <div class="dot"></div>
+        </div>
+        {% if nav == 'home' %}
+        <a href="{% url 'upload' %}">
+            <button class="nav__button">
+                upload
+            </button>
+        </a>
+        {% else %}
+        <a href="{% url 'home' %}">
+            <button class="nav__button">
+                back
+            </button>
+        </a>
+        {% endif %}
+    </div>
+</div>
+<!-- END NAVBAR -->

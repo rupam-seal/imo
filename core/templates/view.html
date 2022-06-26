@@ -1,0 +1,24 @@
+{% extends 'main.html' %}
+{% load static %}
+
+{% block content %}
+<!-- Title -->
+<span class="title">{{title}}</span>
+<!-- start parent container -->
+<div class="parent">
+    <!-- start child container -->
+    {% for image in images %}
+    <div class="item">
+        <div class="item__img-container">
+            <img src="{{image.photo.url}}" class="item__img">
+        </div>
+        <button class="item__view-btn">
+            <a class="item__view-txt" href="">view</a>
+        </button>
+    </div>
+    {% endfor %}
+    <!-- end child container -->
+
+</div>
+<!-- END MAIN CONTAINER -->
+{% endblock %}

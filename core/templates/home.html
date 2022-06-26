@@ -1,0 +1,30 @@
+{% extends 'main.html' %}
+{% load static %}
+
+{% block content %}
+
+<!-- start parent container -->
+<div class="parent">
+    <!-- start child container -->
+    {% for category in categories %}
+    <div class="item">
+        <div class="item__img-container">
+            <!-- get first image from each category for thumbnail -->
+            {% with category.image_set.all|first as image %}
+            <img src="{{image.photo.url}}" class="item__img">
+            {% endwith %}
+            <div class="item__name">
+                {{category.name}}
+            </div>
+        </div>
+        <button class="item__view-btn">
+            <a class="item__view-txt" href="{% url 'view' category.name %}">view</a>
+        </button>
+    </div>
+    {% endfor %}
+    <!-- end child container -->
+
+</div>
+<!-- END MAIN CONTAINER -->
+
+{% endblock %}

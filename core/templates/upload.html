@@ -1,0 +1,19 @@
+{% extends 'main.html' %}
+{% load static %}
+
+{% block content %}
+<!-- START UPLOAD CONTAINER -->
+<div class="upload">
+    <span class="upload__title">Upload</span>
+    <span class="upload__desc">Browse to upload it to imo</span>
+    <form action="" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <label class="upload__choose">
+            <input name="images" type="file" multiple>
+            <span>Choose Files</span>
+        </label>
+        <input type="submit" value="Upload" class="submit">
+    </form>
+</div>
+<!-- END UPLOAD CONTAINER -->
+{% endblock %}

@@ -1,0 +1,72 @@
+/* 
+1rem = 16px || 100%
+1px = 16/100 = 6.25%
+10px = 6.25%*10 = 62.5%
+Now
+1rem = 10px || 62.5%
+*/
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: var(--colorPrimary);
+    margin: 0rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.main__container {
+    width: 90rem;
+    padding: 8rem 1.6rem 1.6rem 1.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Removing unwanted margin from "h tag" */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: var(--colorText);
+    background: var(--colorSecondary);
+}
+  
+::selection {
+    color: var(--colorPrimary);
+    background: var(--colorSecondary);
+}
+
+/* ========== FOR RESPONSIVENESS ========== */
+@media (max-width: 950px) {
+    .main__container {
+        width: 60rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .main__container {
+        width: 45rem;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 47%;
+    }
+}
+
+@media (max-width: 282px) {
+    html {
+        font-size: 35%;
+    }
+}
