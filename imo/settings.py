@@ -10,14 +10,14 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
+import os
+from tensorflow.python.keras.backend import set_session
+from keras.applications import vgg16
+import tensorflow.compat.v1 as tf
 from pathlib import Path
 from dotenv import load_dotenv
 load_dotenv()  # loads the configs from .env
 
-import tensorflow.compat.v1 as tf
-from keras.applications import vgg16
-from tensorflow.python.keras.backend import set_session
-import os
 
 # Backward compatible
 tf.disable_v2_behavior()
@@ -138,8 +138,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR,'static')
+    os.path.join(BASE_DIR, 'static')
 ]
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
