@@ -1,5 +1,4 @@
 asgiref==3.6.0
-autopep8==2.0.1
 certifi==2022.12.7
 charset-normalizer==2.1.1
 Django==4.1.5
