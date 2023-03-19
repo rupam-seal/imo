@@ -15,11 +15,11 @@ imo is a image classification website where user can upload images and it will c
 
 - Desktop
 
-<img src="https://user-images.githubusercontent.com/72932336/226198402-f1a1fa4b-a4b0-41a1-9c92-2cbf5e256b83.png" height="500"/>
+<img src="https://user-images.githubusercontent.com/72932336/226198983-be233a1e-7ba3-4408-a0dc-752ad407119d.png" width="700"/>
 
 - Mobile
 
-<img src="https://user-images.githubusercontent.com/72932336/226198424-18e9081f-210b-446a-a19e-63ba1b4cba34.png" height="500"/>
+<img src="https://user-images.githubusercontent.com/72932336/226198989-23666cfd-3a7b-4001-b30f-a4d8c22a952d.png" width="700"/>
 
 <br>
 
