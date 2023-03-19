@@ -16,6 +16,7 @@ imo is a image classification website where user can upload images and it will c
 - Language: Python, Javascript, HTML, CSS
 - Framework: Django
 - Library: Keras, Numpy, Pillow
+- Model: VGG-16
 
 <br>
 
