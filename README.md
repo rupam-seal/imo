@@ -11,6 +11,18 @@ imo is a image classification website where user can upload images and it will c
 
 <br>
 
+## 🕹️ Demo
+
+- Desktop
+
+<img src="https://user-images.githubusercontent.com/72932336/226198402-f1a1fa4b-a4b0-41a1-9c92-2cbf5e256b83.png" height="500px"/>
+
+- Mobile
+
+<img src="https://user-images.githubusercontent.com/72932336/226198424-18e9081f-210b-446a-a19e-63ba1b4cba34.png" height="500px"/>
+
+<br>
+
 ## 🦾 Tech Stack
 
 - Language: Python, Javascript, HTML, CSS
