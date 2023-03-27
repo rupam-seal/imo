@@ -1,4 +1,3 @@
-<img src="https://user-images.githubusercontent.com/72932336/228002988-59564f33-346b-4462-94f6-feb7839a8677.png" width="700"/>
 # Imo 📷
 <p>
 Imo is a image classification website. Users can easily upload their images and get instant results about the image's content, allowing them to organize their collections more efficiently.
@@ -17,11 +16,7 @@ Users can upload one or more images to Imo, and the website will classify them i
 <br>
 
 ## 🕹️ Demo
-
-<img src="https://user-images.githubusercontent.com/72932336/228002881-f7ffbea9-13a0-4dbe-ada1-0c42d2960ea8.png" width="700"/>
-<img src="https://user-images.githubusercontent.com/72932336/228002936-dc42750b-2011-4a88-b220-089e3b444aa5.png" width="700"/>
-<img src="https://user-images.githubusercontent.com/72932336/228002951-404589a8-c416-413e-a72c-e88ead6657b0.png" width="700"/>
-<img src="https://user-images.githubusercontent.com/72932336/228002965-e62c2a05-2088-454b-a201-8b9fcc01a9ac.png" width="700"/>
+<img src="https://user-images.githubusercontent.com/72932336/228002988-59564f33-346b-4462-94f6-feb7839a8677.png" width="700"/>
 
 <br>
 
