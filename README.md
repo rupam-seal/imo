@@ -20,7 +20,7 @@ Users can upload one or more images to Imo, and the website will classify them i
 
 <br>
 
-## 🦾 Tech Stack
+## 🦾 Tools used
 
 - Language: Python, Javascript, HTML, CSS
 - Framework: Django
