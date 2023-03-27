@@ -1,6 +1,11 @@
+<img src="https://user-images.githubusercontent.com/72932336/228002988-59564f33-346b-4462-94f6-feb7839a8677.png" width="700"/>
 # Imo 📷
 <p>
-imo is a image classification website where user can upload images and it will classify images into their respective category
+Imo is a image classification website. Users can easily upload their images and get instant results about the image's content, allowing them to organize their collections more efficiently.
+</p>
+
+<p>
+Users can upload one or more images to Imo, and the website will classify them into their respective categories using the VGG-16 convolutional neural network. VGG-16 is a deep neural network that consists of 16 layers and is commonly used for image recognition tasks due to its high accuracy and performance.
 </p>
 
 <br>
@@ -13,13 +18,10 @@ imo is a image classification website where user can upload images and it will c
 
 ## 🕹️ Demo
 
-- Desktop 💻
-
-<img src="https://user-images.githubusercontent.com/72932336/226198983-be233a1e-7ba3-4408-a0dc-752ad407119d.png" width="700"/>
-
-- Mobile 📱
-
-<img src="https://user-images.githubusercontent.com/72932336/226198989-23666cfd-3a7b-4001-b30f-a4d8c22a952d.png" width="700"/>
+<img src="https://user-images.githubusercontent.com/72932336/228002881-f7ffbea9-13a0-4dbe-ada1-0c42d2960ea8.png" width="700"/>
+<img src="https://user-images.githubusercontent.com/72932336/228002936-dc42750b-2011-4a88-b220-089e3b444aa5.png" width="700"/>
+<img src="https://user-images.githubusercontent.com/72932336/228002951-404589a8-c416-413e-a72c-e88ead6657b0.png" width="700"/>
+<img src="https://user-images.githubusercontent.com/72932336/228002965-e62c2a05-2088-454b-a201-8b9fcc01a9ac.png" width="700"/>
 
 <br>
 
